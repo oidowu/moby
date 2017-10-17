@@ -1,0 +1,23 @@
+{
+  "name": "Follow",
+  "plural": "Follows",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "follower_id": {
+      "type": "number",
+      "required": true
+    },
+    "followee_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

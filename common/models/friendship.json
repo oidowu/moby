@@ -1,0 +1,32 @@
+{
+  "name": "Friendship",
+  "plural": "Friendships",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "friender_id": {
+      "type": "number",
+      "required": true
+    },
+    "friendee_id": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -37,5 +37,25 @@
   },
   "Message": {
     "dataSource": null
+  },
+  "Article": {
+    "dataSource": "PostgresDB",
+    "public": true
+  },
+  "ArticleView": {
+    "dataSource": "PostgresDB",
+    "public": true
+  },
+  "Feed": {
+    "dataSource": "PostgresDB",
+    "public": true
+  },
+  "Follow": {
+    "dataSource": "PostgresDB",
+    "public": true
+  },
+  "Friendship": {
+    "dataSource": "PostgresDB",
+    "public": true
   }
 }
