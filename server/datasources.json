@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "PostgresDB": {
-    "host": "ec2-54-235-112-37.compute-1.amazonaws.com",
+    "host": "",
     "port": 5432,
-    "url": "postgres://umgfahkwskcgzs:ed1c82ebc75e48d1e9ad2764ed49d661ca4f359c6c11a60c2c0f13e8c2ab5c7a@ec2-54-235-112-37.compute-1.amazonaws.com:5432/dbvi0o21j01pfj",
-    "database": "dbvi0o21j01pfj",
-    "password": "ed1c82ebc75e48d1e9ad2764ed49d661ca4f359c6c11a60c2c0f13e8c2ab5c7a",
+    "url": "",
+    "database": "",
+    "password": "",
     "name": "PostgresDB",
-    "user": "umgfahkwskcgzs",
+    "user": "",
     "connector": "postgresql"
   }
 }
