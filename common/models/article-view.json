@@ -1,0 +1,23 @@
+{
+  "name": "ArticleView",
+  "plural": "ArticleViews",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "viewer_id": {
+      "type": "number",
+      "required": true
+    },
+    "article_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
