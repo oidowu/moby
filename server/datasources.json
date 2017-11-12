@@ -2,5 +2,18 @@
   "db": {
     "name": "db",
     "connector": "memory"
+<<<<<<< HEAD
+=======
+  },
+  "PostgresDB": {
+    "host": "",
+    "port": 5432,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "PostgresDB",
+    "user": "",
+    "connector": "postgresql"
+>>>>>>> eb6e8ff481ba00e3e7d423ac06cb4ab5332c4bae
   }
 }
