@@ -39,23 +39,23 @@
     "dataSource": null
   },
   "Article": {
-    "dataSource": "PostgresDB",
+    "dataSource": "db",
     "public": true
   },
   "ArticleView": {
-    "dataSource": "PostgresDB",
+    "dataSource": "db",
     "public": true
   },
   "Feed": {
-    "dataSource": "PostgresDB",
+    "dataSource": "db",
     "public": true
   },
   "Follow": {
-    "dataSource": "PostgresDB",
+    "dataSource": "db",
     "public": true
   },
   "Friendship": {
-    "dataSource": "PostgresDB",
+    "dataSource": "db",
     "public": true
   }
 }
