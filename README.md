@@ -10,7 +10,9 @@
 - run `npm install` again
 
 ## Running locally
-- Build the UI: from client dir, run `ng build`
+- Run the ui: from client dir, run `npm start`
 - Run the server: from root dir, run `npm start`
+
+The ui is configured to point to the server during development as a proxy.
 
 ## Deployment
