@@ -3,12 +3,18 @@
     "name": "db",
     "connector": "memory"
   },
+  "PostgresDB": {
+    "url": "${DATABASE_URL}",
+    "name": "PostgresDB",
+    "connector": "postgresql",
+    "ssl": true
+  },
   "neo": {
     "name": "neo",
     "connector": "neo4j-graph",
     "port": "7474",
-    "hostname": "127.0.0.1",
-    "username": "neo4j",
-    "password": "ayodeji3"
+    "hostname": "localhost",
+    "username": "${NEO_USER}",
+    "password": "${NEO_PASS}"
   }
 }

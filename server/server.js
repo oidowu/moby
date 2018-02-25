@@ -2,6 +2,7 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var env = require('dotenv').config();
 var request = require('request');
 var FeedParser = require('feedparser');
 //var datasources = require('../server/datasources.json');
