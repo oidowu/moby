@@ -14,48 +14,48 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "neo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "Message": {
     "dataSource": null
   },
   "Article": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": true
   },
   "ArticleView": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": true
   },
   "Feed": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": true
   },
   "Follow": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": true
   },
   "Friendship": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": true
   }
 }

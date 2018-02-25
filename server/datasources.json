@@ -2,18 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
-<<<<<<< HEAD
-=======
   },
-  "PostgresDB": {
-    "host": "",
-    "port": 5432,
-    "url": "",
-    "database": "",
-    "password": "",
-    "name": "PostgresDB",
-    "user": "",
-    "connector": "postgresql"
->>>>>>> eb6e8ff481ba00e3e7d423ac06cb4ab5332c4bae
+  "neo": {
+    "name": "neo",
+    "connector": "neo4j-graph",
+    "port": "7474",
+    "hostname": "127.0.0.1",
+    "username": "tidowu93@gmail.com",
+    "password": "ayodeji3"
   }
 }
