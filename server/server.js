@@ -47,6 +47,9 @@ function fetch(feed) {
     var charset = getParams(res.headers['content-type'] || '').charset;
     res.pipe(feedparser);
   });
+  var dest = Article.destroyAll(function(err, artic) {
+    if (err) throw err;
+  });
   feedparser.on('error', done);
   feedparser.on('end', done);
   feedparser.on('readable', function() {
@@ -54,9 +57,6 @@ function fetch(feed) {
     //console.log(JSON.stringify(parsedFeed));
     // console.log(JSON.stringify({'title': 'test'}));
     var post;
-    var dest = Article.destroyAll(function(err, artic) {
-      if (err) throw err;
-    });
     while (post = this.read()) {
       console.log(post.title, '|', post.author);
       var arti = Article.create({'author': post.author, 'title': post.title}, function(err, artic) {
