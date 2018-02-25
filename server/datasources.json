@@ -13,7 +13,7 @@
     "name": "neo",
     "connector": "neo4j-graph",
     "port": "7474",
-    "hostname": "127.0.0.1",
+    "hostname": "localhost",
     "username": "${NEO_USER}",
     "password": "${NEO_PASS}"
   }

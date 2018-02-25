@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core'
-import { Http } from '@angular/http'
+import { HttpClient } from '@angular/common/http'
 
-const articleUrl = '/Articles'
+import { Observable } from 'rxjs'
+
+const ARTICLE_URL = '/api/Articles'
 
 @Injectable()
 export class ArticleService {
 
-    constructor(private http: Http) { }
+    constructor(private http: HttpClient) { }
     
-    private getArticles() {
-
+    // list all articles in database
+    public getArticles() : Observable<any[]> {
+        return this.http.get<any[]>(ARTICLE_URL)
     }
 }

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'
+import { ReactiveFormsModule }    from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -8,6 +10,7 @@ import { DiscoverComponent } from './discover/discover.component';
 import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 import { AuthComponent } from './auth/auth.component';
 import { ArticleCardComponent } from './shared/article-card/article-card.component';
+import { ArticleService } from './utils/article.service';
 
 @NgModule({
   declarations: [
@@ -20,9 +23,11 @@ import { ArticleCardComponent } from './shared/article-card/article-card.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ArticleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

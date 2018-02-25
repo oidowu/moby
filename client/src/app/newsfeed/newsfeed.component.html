@@ -1,3 +1,5 @@
-<p>
-  newsfeed works!
-</p>
+<div>
+  <div *ngFor="let article of articles | async">
+    <article-card [article]="article" (click)="articleClick(article)"></article-card>
+  </div>
+</div>
