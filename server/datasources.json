@@ -8,5 +8,13 @@
     "name": "PostgresDB",
     "connector": "postgresql",
     "ssl": true
+  },
+  "neo": {
+    "name": "neo",
+    "connector": "neo4j-graph",
+    "port": "7474",
+    "hostname": "127.0.0.1",
+    "username": "${NEO_USER}",
+    "password": "${NEO_PASS}"
   }
 }

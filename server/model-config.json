@@ -14,48 +14,48 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "neo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "neo",
     "public": false
   },
   "Message": {
     "dataSource": null
   },
   "Article": {
-    "dataSource": "PostgresDB",
+    "dataSource": "neo",
     "public": true
   },
   "ArticleView": {
-    "dataSource": "PostgresDB",
+    "dataSource": "neo",
     "public": true
   },
   "Feed": {
-    "dataSource": "PostgresDB",
+    "dataSource": "neo",
     "public": true
   },
   "Follow": {
-    "dataSource": "PostgresDB",
+    "dataSource": "neo",
     "public": true
   },
   "Friendship": {
-    "dataSource": "PostgresDB",
+    "dataSource": "neo",
     "public": true
   }
 }
